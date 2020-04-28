@@ -1,10 +1,14 @@
 'use strict';
 
 import React from 'react';
-import { Header } from './index.styles';
+import { Header, Title } from './index.styles';
 
 const SiteHeader = (props) => {
-	return <Header {...props}></Header>;
+	return (
+		<Header {...props}>
+			<Title>Marketplace Money</Title>
+		</Header>
+	);
 };
 
 export default SiteHeader;

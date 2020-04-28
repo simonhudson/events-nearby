@@ -13,10 +13,16 @@ const Header = styled.header`
 			'tablet-l',
 			`
 			justify-content: space-between;
-			padding: 0 ${rem(20)};
+			padding: ${rem(30)} ${rem(20)};
 			`
 		)};
 
 }`;
 
-export { Header };
+const Title = styled.p`
+	font-weight: 600;
+	font-size: ${rem(20)};
+	margin: 0;
+`;
+
+export { Header, Title };
