@@ -5,6 +5,9 @@ import axios from 'axios';
 const COMMON_OPTIONS = {
 	dataType: 'json',
 	mode: 'cors',
+	headers: {
+		Authorization: `Bearer ${process.env.API_KEY}`,
+	},
 };
 
 async function makeRequest(endpoint, method) {

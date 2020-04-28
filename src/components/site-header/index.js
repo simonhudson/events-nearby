@@ -7,7 +7,7 @@ const SiteHeader = (props) => {
 	return (
 		<Header {...props}>
 			<props.theme.layout.Wrap>
-				<Title>Marketplace Money</Title>
+				<Title>Events Nearby</Title>
 			</props.theme.layout.Wrap>
 		</Header>
 	);
