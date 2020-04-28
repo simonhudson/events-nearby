@@ -19,14 +19,14 @@ const App = ({ Component, pageProps }) => {
 	return (
 		<>
 			<Head>
-				<title>Test Site</title>
+				<title>Events Nearby</title>
 			</Head>
 			<ThemeProvider theme={Theme}>
 				<SiteHeader {...pageProps} />
 				<main>
 					<Component {...pageProps} />
 				</main>
-				<SiteFooter />
+				<SiteFooter {...pageProps} />
 			</ThemeProvider>
 		</>
 	);
