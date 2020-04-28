@@ -1,0 +1,40 @@
+*,
+fieldset {
+    box-sizing: border-box;
+	font-family: 'Open Sans', arial, helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    text-rendering: optimizeLegibility;
+}
+
+html {
+    background: #fff;
+    color: #5d5d5d;
+    position: relative;
+}
+
+p {
+    line-height: 1.6rem;
+    margin-bottom: 2rem;
+}
+
+span, strong, em {
+    font-family: inherit;
+    font-size: inherit;
+}
+
+.no-js-alert {
+    display: block;
+}
+
+fieldset {
+    border: 0;
+    padding: 0;
+}
+
+details summary::marker,
+details summary::-webkit-details-marker {
+    display: none;
+}
